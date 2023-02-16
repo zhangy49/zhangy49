@@ -125,4 +125,14 @@ color:#FFFFFF;
     font-size: 7px;
     bottom: 50px;
 }
+.alternativeMenu{
+    position: absolute;
+    font-size: 10px;
+    top:150px;
+    left:100px;
+
+}
+#filmType{
+    font-size: 10px ;
+}
 }

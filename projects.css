@@ -2,7 +2,7 @@ body {
     background-image:url('img/projectsbg.png');
     background-size:cover;
     background-repeat: no-repeat;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-position: center;
     top:0;
     left: 0;
@@ -56,7 +56,7 @@ font-size: 1vw;
 
 }
 article {
-    margin: 30px;
+    margin: 20px;
     position:relative;
     height:50vw;
   } 
@@ -119,8 +119,7 @@ animation-fill-mode:forwards;
   .villanelle{
 display: flex;
 position: absolute;
-width:34vw;
-height:auto;
+width:3vw;
 left:3vw;
 top:9vh;
 font-family: 'Open Sans';
@@ -129,9 +128,55 @@ font-weight: 10;
 line-height: 5vh;
 letter-spacing: 1vw;
 font-size: 2vw;
-
   }
-
+  @media(max-width:600px){
+   .villanelle{
+    left:5px;
+    top: 10px;
+}
+   #p2{
+    position:absolute;
+    font-size: 10px;
+    left:-3vw;
+   }
+    .printer3{
+        display: none;
+    }
+    .printer1{
+        display: none; 
+    }
+    .dicorationWord2{
+        display: none; 
+        }    
+    .dicorationWord1{
+            display: none; 
+            } 
+    .heart{
+        display: none;
+    }  
+    .undertheskin{
+        top:10px;
+    }
+   
+    #p1{
+      
+       top:70px;
+    }
+    .projectsList{
+     margin-left: 25px;
+     margin-right: 25px;
+    }
+    .printer2{
+        right:10px;
+    }
+    .warmlight{
+        display: none;
+    }
+    .dicorationWord3{
+        display:none;
+    }
+   
+  }
 #p2{
     position:absolute;
     text-align: justify;
@@ -294,3 +339,16 @@ top:26vw;
         animation-fill-mode:forwards;
     }
     
+    @media(max-width:600px){
+        .alternativeMenu{
+            position: absolute;
+            font-size: 10px;
+            top:150px;
+            left:100px;
+        
+        }
+        #workType{
+            font-size: 10px ;
+        }
+
+    }   

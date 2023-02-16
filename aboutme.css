@@ -191,11 +191,11 @@ color: #FFFFFF;
   }
   .portrait{
     left:-33px;
-    bottom:200px;
+    bottom:280px;
     width:400px;  
   }
   .rightText{
-    bottom:100px;
+    bottom:200px;
     font-size: 7px;
   }
   .view{
@@ -203,77 +203,41 @@ color: #FFFFFF;
     transform: rotate(90deg);
     left:10px;
   }
-  .contact{
-    display: none;
-  }
-  .contactline{
-    position:absolute;
-    border: 0.5px solid #FFFFFF;
-    width:14vw;
-    top:970px;
-    left:43vw;
-    transform: rotate(90deg);   
-}
-.lefticon{
-    position:absolute;
-    top:945px;
-    left:43vw;
-    display:flex;
-    flex-direction: column;
-}
-.righticon{
-    position:absolute;
-    top:940px;
-    left:53vw;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between; 
-}
-.contactline{
-    position:absolute;
-    border: 1px solid #FFFFFF;
-    width:14vw;
-    bottom: 20vh;
-    left:43vw;
-    transform: rotate(90deg);   
-}
+  
+ 
 
-.phone{
-    width:4vw; 
-    height:auto;
-    margin-bottom: 18px;
+
 }
-.location{
-    width:4vw; 
-    height:auto;
-    margin-bottom: 100px;
-}
-.email{
-    width:3.7vw; 
-    height:auto;
-    margin-bottom: 6px;
-}
-.instagram{
-    width:3.7vw; 
-    height:auto;
-    margin-bottom: 6px;
-}
-.linkedin{
-    width:3.7vw; 
-    height:auto;
-    margin-bottom: 10px;
-}
+@media(max-width:600px){
+
+    .cv{
+      text-align: center;
+      position: relative;
+      top:900px;
+      margin:20px;
+      display: flex;
+      flex-direction: column;
+      color: #FFFFFF;
+      font-family: Open Sans;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 1.6rem;
+      letter-spacing: 5px;
+      text-align: justified;
+    }
+    .cvleft{
+      margin-bottom: 20px;
+    }
+    .title{
+      font-size: 15px;
+      font-weight: 600;
+
+    }
 }
 @media(min-width:600px){
-    .lefticon{
-        display: none;
-    }
-    .righticon{
-        display: none;
-    }
-    .contactline{
-        display: none;
-    }
+   .cv{
+    display: none;
+   } 
 }
 a:hover{
   color: #C3A7FF;
