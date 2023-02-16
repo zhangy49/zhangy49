@@ -1,0 +1,1 @@
+document.getElementById("filmType").innerHTML = "&nbsp"+"Fomapan100"+"&nbsp";

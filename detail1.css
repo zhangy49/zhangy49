@@ -1,0 +1,137 @@
+#background{
+    position:fixed;
+    width:110vw;
+    height:110vh;
+    z-index: -1;  
+}
+#back{
+    position:fixed;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 2vw;
+    letter-spacing: 1.5vw;
+    color:#FFFFFF;
+        right:6vw;
+        transform:rotate(-90deg);
+        bottom:10vw;
+    }
+    #next{
+    position:fixed;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 2vw;
+    letter-spacing: 1.5vw;
+    color:#FFFFFF;
+        right:2vw;
+        transform:rotate(90deg);
+        bottom:4vw;
+    
+    }
+#undervideo{
+    position: absolute;
+    left:13vw;
+    top:14vw;
+}
+.scale{
+    position:absolute;
+    width:30vw;
+    text-align: left;
+    flex-direction: column;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.5vw;
+    font-size: 0.7vw;
+    
+    width:33vw;
+    right:10vw;
+    top: 36vw;
+    line-height: 1.7vw;
+    animation:transparencyAnimate 1s;
+        animation-fill-mode:forwards;
+}
+.underContainer{
+    display: flex;
+}
+.descriptionunder{
+    position:absolute;
+    width:44vw;
+    text-align: center;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.5vw;
+    font-size: 1vw;
+    right:-30vw;
+    top: 9vw;
+    line-height: 2vw;
+    animation:transparencyAnimate 1s;
+        animation-fill-mode:forwards;
+}
+#descriptionunderDetail{
+    position:absolute;
+    width:29vw;
+    text-align: center;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.3vw;
+    font-size: 0.8vw;
+    right:-28vw;
+    top: 9vw;
+    line-height: 1.8vw;
+    animation:transparencyAnimate 1s;
+        animation-fill-mode:forwards;
+
+}
+#back{
+    text-decoration: none;
+}
+.underyoutube{
+    width:49vw; 
+    height:30vw;
+    margin-bottom: 8vw;
+}
+.UD{
+    margin: 3vw;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media(max-width:600px){
+    .underyoutube{
+        width:320px; 
+        height:210px;
+    }
+    #undervideo{
+        width:200px;
+        position: absolute;
+        top:180px;
+    }
+    .descriptionunder{
+        width:300px;
+        position:absolute;
+        top:260px;
+        font-size: 7px;
+        line-height: 20px;
+        
+    }
+    .scale{
+       display: none;
+    }
+
+    #back{
+        font-size: 7px;
+        bottom: 100px;
+    }
+    #next{
+        font-size: 7px;
+        bottom: 50px;
+    }
+}

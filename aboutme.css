@@ -1,0 +1,332 @@
+body {
+    background-image:url('img/aboutmebg.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    top:0;
+    left: 0;
+    max-width: 100%;
+    z-index: -10;
+    zoom:1;
+}
+
+.menu{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 6px;
+    color: #ffffff; 
+    display: flex;
+    position: absolute;
+    width: 51vw;
+    /* flex-direction: row; */
+    right: 14vw;
+    top: 7vh;
+    justify-content: space-around;
+  }
+
+.projects{
+    flex-grow:1;
+    color: #ffffff; 
+    text-decoration: none;
+}
+.photograph{
+    flex-grow:1;
+    color: #ffffff; 
+    text-decoration: none;
+}
+.aboutMe {
+    flex-grow:1;
+    color:#C3A7FF;
+}
+.contact {
+    flex-grow:1;
+    color: #ffffff; 
+    text-decoration: none;
+}
+.lotus {
+    width:auto;
+    height: 1.2vw;
+     position: absolute; 
+    top: 0.5vh; 
+    right: 0vw;
+}
+.logoSmall{
+height:6vw;
+width:auto;
+position:absolute;
+left: 13vw;
+top: 5vh;
+animation:transparencyAnimate 1s;
+  animation-fill-mode:forwards;
+}
+
+.leftText{
+    position: fixed;
+    width:15vw;
+    left: 0vw;
+    top:55vh;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 1.1vw;
+    letter-spacing: 1vw;
+    color: #FFFFFF;
+    mix-blend-mode: screen;
+    transform: rotate(90deg);
+}
+.portrait{
+    position: absolute;
+    left: 13vw;
+    bottom: 16vh;
+    mix-blend-mode: lighten;
+    width: 43vw;
+    height: auto;
+}
+.rightText{
+position: absolute;
+width: 28vw;
+height: 35vw;
+right: 5vw;
+bottom: -5vw;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1vw;
+line-height: 227.18%;
+/* or 36px */
+
+text-align: right;
+letter-spacing: 0.5rem;
+color: #FFFFFF;
+}
+
+.intro{
+    width:30vw;
+    position: absolute;
+    left: 40vw;
+    top: 27vh;
+}
+.frame{
+    width:20vw;
+    height: auto;
+    position: absolute;
+    left: 30vw;
+    top: 60vh;
+}
+.view{
+    position: relative;
+    left: 39vw;
+    top: 78vh;
+    width:20vw;
+    height:auto;
+}
+.upLine{
+    width:3.5vw;
+    height:auto;
+    position: fixed;
+    left:7vw;
+    top:9vh;
+}
+.arrow{
+    width:1vw;
+    height:auto;
+    position: fixed;
+    left:7vw;
+    bottom: 2vh;
+}
+
+
+.thankyou{
+position: absolute;
+width: 60vw;
+height: auto;
+left: 25vw;
+top: 50vh;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+letter-spacing:1vw;
+color: #FFFFFF;
+}
+
+@media(max-width:600px){
+  .menu{
+    text-align: right;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 24px;
+    right:20px;
+    top:70px;
+  }
+  .lotus{
+    display: none;
+  }
+  .logoSmall{
+    top:70px;
+    width:10vw;
+    height:auto;
+    
+  }
+  .upLine{
+    display: none;
+  }
+  .arrow{
+    display: none;
+  }
+  .leftText{
+    display: none;
+  }
+  .frame{
+    display: none;
+  }
+  .intro{
+    width:250px;
+    height:auto;
+    left:100px;
+    top:250px;
+  }
+  .portrait{
+    left:-33px;
+    bottom:200px;
+    width:400px;  
+  }
+  .rightText{
+    bottom:100px;
+    font-size: 7px;
+  }
+  .view{
+    width:200px;
+    transform: rotate(90deg);
+    left:10px;
+  }
+  .contact{
+    display: none;
+  }
+  .contactline{
+    position:absolute;
+    border: 0.5px solid #FFFFFF;
+    width:14vw;
+    top:970px;
+    left:43vw;
+    transform: rotate(90deg);   
+}
+.lefticon{
+    position:absolute;
+    top:945px;
+    left:43vw;
+    display:flex;
+    flex-direction: column;
+}
+.righticon{
+    position:absolute;
+    top:940px;
+    left:53vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.contactline{
+    position:absolute;
+    border: 1px solid #FFFFFF;
+    width:14vw;
+    bottom: 20vh;
+    left:43vw;
+    transform: rotate(90deg);   
+}
+
+.phone{
+    width:4vw; 
+    height:auto;
+    margin-bottom: 18px;
+}
+.location{
+    width:4vw; 
+    height:auto;
+    margin-bottom: 100px;
+}
+.email{
+    width:3.7vw; 
+    height:auto;
+    margin-bottom: 6px;
+}
+.instagram{
+    width:3.7vw; 
+    height:auto;
+    margin-bottom: 6px;
+}
+.linkedin{
+    width:3.7vw; 
+    height:auto;
+    margin-bottom: 10px;
+}
+}
+@media(min-width:600px){
+    .lefticon{
+        display: none;
+    }
+    .righticon{
+        display: none;
+    }
+    .contactline{
+        display: none;
+    }
+}
+a:hover{
+  color: #C3A7FF;
+}
+@keyframes portraitAnimate{
+  0%{ transform: translateX(-2000px); opacity: 0;}
+  100%{ transform: translateX(0vw); opacity: 1;}
+}
+@keyframes rightAnimate{
+  0%{ transform: translateX(2000px); opacity: 0;}
+  100%{ transform: translateX(0vw); opacity: 1;}
+}
+.portrait{
+  animation:portraitAnimate 1s;
+  animation-fill-mode:forwards;
+}
+.view{
+  animation:portraitAnimate 1s;
+  animation-fill-mode:forwards;
+}
+@keyframes frameAnimate{
+  0%{ transform: translateY(-2000px); opacity: 0;}
+  100%{ transform: translateY(0vw); opacity: 1;}
+}
+.frame{
+  animation:frameAnimate 1s;
+  animation-fill-mode:forwards;
+}
+.intro{
+  animation:frameAnimate 0.6s;
+  animation-fill-mode:forwards;
+}
+.upLine{
+  animation:frameAnimate 1.1s;
+  animation-fill-mode:forwards;
+}
+.arrow{
+  animation:frameAnimate 1.1s;
+  animation-fill-mode:forwards;
+}
+@keyframes righttextAnimate {
+  0%{ transform: translateX(2000px); opacity: 0;}
+  100%{ transform: translateX(0vw); opacity: 1;}
+  0%{ transform: translateY(2000px); opacity: 0;}
+  100%{ transform: translateY(0vw); opacity: 1;}
+
+}
+.rightText{
+  animation:righttextAnimate 1s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes transparencyAnimate{
+  0%{ opacity: 0;}
+  100%{ opacity: 0.8;}
+}
