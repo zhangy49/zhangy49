@@ -210,7 +210,10 @@ color: #FFFFFF;
 
 }
 @media(max-width:600px){
-
+    
+    .contact{
+      display: none;
+    }
     .cv{
       text-align: center;
       position: relative;
