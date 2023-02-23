@@ -1,0 +1,51 @@
+#descriptionunder4{
+    left:13vw;
+    text-align: right;
+    top:30vw;
+    font-size:1vw;
+  }
+  .descriptionyuDetail{
+    position:absolute;
+    width:25vw;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.3vw;
+    font-size: 0.8vw;
+    line-height: 1.8vw;
+    animation:transparencyAnimate 1s;
+        animation-fill-mode:forwards;
+  }
+  #descriptionyuDetail1{
+    text-align: left;
+    right:15vw;
+    top:70vw;
+
+  }
+  #descriptionyuDetail2{
+    text-align: right;
+   right:20vw;
+    top:150vw;
+
+  }
+  @media(max-width:600px){
+    .menu{
+        display: none;
+       }
+       .logoSmall{
+        display: none;
+       }
+       .descriptionyuDetail{
+        font-size: 4px;
+        line-height: 10px;
+       }
+       #descriptionunder4{
+        width:300px;
+        top:150px;
+        left:20px;
+        font-size: 7px;
+        line-height: 15px;
+        text-align: center;
+       }
+
+  }

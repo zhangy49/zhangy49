@@ -10,42 +10,6 @@ body {
     z-index: -10;
     zoom:1;
 }
-.menu{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 2vw;
-    letter-spacing: 5.65px;
-    color: #ffffff; 
-    display: flex;
-    position: absolute;
-    width: 50vw;
-    /* flex-direction: row; */
-    right: 15vw;
-    top: 7vh;
-    justify-content: space-around;
-  }
-.projects{
-    flex-grow:1;
-    color: #ffffff; 
-    text-decoration: none;
-}
-.photograph{
-    flex-grow:1;
-    color: #ffffff; 
-    text-decoration: none;
-}
-.aboutMe {
-    flex-grow:1;
-    color:#C3A7FF;
-}
-.contact {
-    flex-grow:1;
-    color: #ffffff; 
-    text-decoration: none;
-}
-
 
 
 .leftText{

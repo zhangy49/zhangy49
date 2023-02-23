@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <script src="projects.js" defer ></script>
+
     <link rel="stylesheet" href="aboutme.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class ="menu" >
@@ -27,56 +30,78 @@
     <img class="upLine" src = "img/upLine.svg" alt = "" />
     <img class="arrow" src = "img/arrow.svg" alt = "" />
 
-
     <div class="leftText">projects</div>
 
-    <div class="alternativeMenu">
-        <div id="leftClick"> &#60; </div>
-        <div id="workType"></div>
-        <div id="rightClick"> &#62; </div>
+    <div class ="rightmenu" >
+    <div id="installationType">Installation</div>
+    <div id="UIType">UI/UX</div>
+    <div id="industrialType">Industrial</div>
+    <div id="digitalType">Digital arts</div>
+    </div>
         
     </div>
     <div class="projectsList">
-       <article id="project1">
-        <img src="./img/lung.png" class="lung" >
-        <img src="./img/heart.png" class="heart"   >
-        <div class="undertheskin">Under the Skin <a href="detail1.html" id="purplearrow">&nbsp></a></div>
-        <p id="p1">The integrity of consciousness determines the harmonious fit of physicality within the body. And intense emotions will start with the organs and slowly tear you apart.</p>
-        <div class="dicorationWord1">
-            <div class="underInstallation">Installation</div>
-            <div class="underMediaart">Media Art</div>
+       <article id="project1" class="project">
+        <img src="./img/lung.png" class="projectpic" >
+        <div class="projectTitle">UNDER&nbspTHE&nbspSKIN<a href="detail1.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p class="projectDescription">The integrity of consciousness determines the harmonious fit of physicality within the body. And intense emotions will start with the organs and slowly tear you apart.</p>
+        <div class="decorationWordleft">
+            <div id="decoration11">Installation</div></div>
+        <div class="decorationWordright">
+            <div id="decoration12">Sensorial</div>
            </div>
        </article>
         
-       <article id="project2">
-        
-        <img src="img/printer2.png"class="printer2" >
-        <img src="img/printer1.png"class="printer1">
-        <img src="img/printer3.png"class="printer3">
-        <div class="villanelle">Villanelle<div id="purplearrow">&nbsp></div></div>
-        <p id="p2">Improvised dance is an expression of the subconscious mind.<br> Body language encompasses our various emotions and creativity, now please start composing music with your body.</p>
-
-        <div class="dicorationWord2">
-            <div class="villanelleInstallation">Installation</div>
-            <div class="villanelleMediatech">Media Tech</div>
-            <div class="villanelleMotion">Motion Capture</div>
-           </div>
+       <article id="project2" class="project">
+        <img src="img/VI4.jpeg"class="projectpic">
+        <div class="projectTitle">VILLANELLE<a href="detail2.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p  class="projectDescription">Improvised dance is an expression of the subconscious mind.Body language encompasses our various emotions and creativity, now please start composing music with your body.</p>
+        <div class="decorationWordleft" id="diecorationWord21">Media Tech </div>
+        <div class="decorationWordright" id="decorationWord22">Motion<br><br>&nbsp&nbspCapture</div>
         </article>
 
-       <article id="project3">
-
-        <img src="img/coldlight.png"class="coldlight">
-        <img src="img/warmlight.png"class="warmlight">
-        <div class="gemini">Gemini<div id="purplearrow">&nbsp></div></div>
-        <p id="p3">The interaction of lighting design lies not only in the physical interaction of the human body, but also in the connection between atmosphere and behavior..</p>
-
-        <div class="dicorationWord3">
-            <div class="geminiProduct">Product</div>
-            <div class="geminiIllumination">Illumination</div>
-           
-           </div>
+       <article id="project3" class="project">
+        <img src="img/light1.png"class="projectpic">
+        <div class="projectTitle">GEMINI<a href="detail3.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p class="projectDescription">The interaction of lighting design lies not only in the physical interaction of the human body, but also in the connection between atmosphere and behavior.</p>
+        <div class="decorationWordleft" id="diecorationWord31">Illumination</div>
+        <div class="decorationWordright"id="decoration32"></div> 
        </article>
-      
+
+       <article id="project4" class="project">
+        <img src="img/yunlon2.png"class="projectpic">
+        <div class="projectTitle">YUNLON<a href="detail4.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p class="projectDescription">We have been calling for abortion rights for a century, but regression is only an instant away. And I firmly believe that a woman's sense of autonomy can be a powerful weapon.</p>
+        <div class="decorationWordleft"id="decoration41">Fiminism</div>
+        <div class="decorationWordright"id="decoration42">Speculative</div>      
+       </article>
+
+       <article id="project5" class="project">
+        <img src="img/space1.png"class="projectpic"id="space1">
+        <div class="projectTitle">PURIFICATION<a href="detail5.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p class="projectDescription">The interactive immersive space should not be a closed and extravagant art exhibition act, but will slowly become an open public space, or even part of the urban traffic.</p>
+        <div class="decorationWordleft"id="decoration51">Spatial Design</div>
+        <div class="decorationWordright"id="decoration52">immersive</div>
+       </article>
+
+       <article id="project6" class="project">
+        <img src="img/blossy1.png"class="projectpic">
+        <div class="projectTitle">BLOSSY<a href="detail6.html" id="purplearrow">&nbsp&nbsp></a></div>
+        <p class="projectDescription">Aromatherapy has been shown to be effective for PMS, since then I designed this diffuser including a full user system for women who are experiencing premenstrual syndrome.</p>
+        <div class="decorationWordleft"id="decoration61"></div>
+        <div class="decorationWordright"id="decoration62">Female Care</div>
+       </article>
+
+        <article id="project7" class="project">
+            <img src="img/phaedo1.png"class="projectpic">
+            <div class="projectTitle">PHAEDO<a href="detail1.html" id="purplearrow">&nbsp&nbsp></a></div>
+            <p class="projectDescription">The inter1active immersive space should not be a closed and extravagant art exhibition act, but will slowly become an open public space, or even part of the urban traffic.</p>
+            <div class="decorationWordleft"id="decoration71">Digital Art</div>
+            <div class="decorationWordright"id="decoration72">Subconscious</div>
+            </article> 
+        
+  
+        
     </div>
 
 

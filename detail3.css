@@ -1,0 +1,45 @@
+#descriptionunder3{
+  left:44vw;
+  text-align: left;
+  top:27vw;
+  font-size:1vw;
+}
+#descriptiongeDetail{
+    position:absolute;
+    width:25vw;
+    text-align: right;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.3vw;
+    font-size: 0.8vw;
+    left:20vw;
+    top: 90vw;
+    line-height: 1.8vw;
+    animation:transparencyAnimate 1s;
+        animation-fill-mode:forwards;
+}
+@media(max-width:600px){
+    .detailContainer3{
+        position: absolute;
+        top:100px;
+        
+    }
+    .descriptiongeDetail{
+        width:200px;
+        font-size: 4px;
+        line-height: 10px;
+    
+    }
+   #descriptionunder3{
+    width:200px;
+    line-height: 10px;
+   }
+   .menu{
+    display: none;
+   }
+   .logoSmall{
+    display: none;
+   }
+
+}

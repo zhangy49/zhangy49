@@ -1,8 +1,8 @@
 body {
-    background-image:url('img/projectsbg.png');
+    background-image:url('img/aboutmebg.png');
     background-size:cover;
     background-repeat: no-repeat;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-position: center;
     top:0;
     left: 0;
@@ -25,29 +25,61 @@ body {
 .photograph{
     color:#C3A7FF;
 }
-.leftline{
-    margin-left: 14vw;
-    margin-top: 30vh;
-    display:flex;
+.photolist{
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;  
-    width:31vw; 
-    animation:frameAnimate 1.1s;
-    animation-fill-mode:forwards;
 }
-.rightline{
-    margin-left: 8vw;
-    margin-top: 30vh;
-    display:flex;
+.photo1{
+    position: absolute;
+    left:10vw;
+    top:22vw;
+    width:60vw;
+    display: flex;
     flex-direction: column;
-    width:31vw; 
-    animation:righttextAnimate 1s;
-        animation-fill-mode:forwards;
 }
-.photo{
-    display:flex;
-    width:50vw;
+.photo2{
+    position: absolute;
+    left:10vw;
+    top:85vw;
 }
+.photo3{
+    position: absolute;
+    left:10vw;
+    top:155vw;
+}
+.photo4{
+    position: absolute;
+    left:10vw;
+    top:200vw;
+}
+.oneline{
+    margin-top: 1vw;
+    width:60vw;
+    display: flex;
+    justify-content: space-between;
+}
+.twoline{
+    width:60vw;
+    display: flex;
+    justify-content: space-between;
+}
+.photos{
+    width:20vw;
+    padding: 3vw;
+}
+.phototext{
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Open Sans';
+    letter-spacing: 0.25vw;
+    font-size: 0.8vw;
+    line-height: 2vw;
+    width:30vw;
+    position: relative;
+    left:45vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 
 #back{
 position:fixed;
@@ -55,11 +87,11 @@ display: flex;
 font-family: 'Open Sans';
 font-style: italic;
 font-weight: 400;
-font-size: 1vw;
+font-size: 0.8vw;
 line-height: 2vw;
-letter-spacing: 1.5vw;
+letter-spacing: 1vw;
 color:#FFFFFF;
-    right:6vw;
+    right:4vw;
     transform:rotate(-90deg);
     bottom:10vw;
 }
@@ -69,70 +101,35 @@ display: flex;
 font-family: 'Open Sans';
 font-style: italic;
 font-weight: 400;
-font-size: 1vw;
+font-size: 0.8vw;
 line-height: 2vw;
-letter-spacing: 1.5vw;
+letter-spacing: 1vw;
 color:#FFFFFF;
-    right:2vw;
+    right:0vw;
     transform:rotate(90deg);
     bottom:4vw;
 }
-.alternativeMenu{
-    display: flex;
-    position: absolute;
-    left:20vw;
-    top:10vw;
-    width: 1.2vw;
-    height:auto;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 33px;
-    color:#C3A7FF;
-    /* identical to box height */
-    letter-spacing: 5px;
-    }
-    #filmType{
-        color:#FFFFFF;
-    letter-spacing: 0.5vw;
-    font-size: 1vw;
-    }
-@media(max-width:600px){
-    .photo{
-        position: relative;
-        top:10px;
-        flex-direction: column;
-        width:30px;
-    }
-    .leftline{
-        width: 230px;
-        margin-top: 20vh;
-  
-    }
-    .rightline{
-        position: relative;
-        width: 230px;
-        margin-top: 0vh;
-        left:6vw;
-        
-    }
-#back{
-    font-size: 7px;
-    bottom: 100px;
-}
-#next{
-    font-size: 7px;
-    bottom: 50px;
-}
-.alternativeMenu{
-    position: absolute;
-    font-size: 10px;
-    top:150px;
-    left:100px;
 
+@media(max-width:600px){
+   .photolist{
+    position: relative;
+    margin-top: 100px;
+   }
+   .photo2{
+    position: relative;
+    left:10vw;
+    top:95vw;
 }
-#filmType{
-    font-size: 10px ;
+   .photo3{
+    position: relative;
+    left:10vw;
+    top:115vw;
 }
+.photo4{
+    position: relative;
+    left:10vw;
+    top:135vw;
+}
+  
+
 }

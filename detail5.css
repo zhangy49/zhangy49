@@ -1,0 +1,50 @@
+#descriptionunder5{
+    text-align: center;
+    width:35vw;
+    position: absolute;
+    left:15vw;
+    top:30vw;
+}
+.detailContainer5{
+    width:100vw;
+    left:3vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.3vw;
+    font-size: 0.8vw;
+}
+.descriptionspDetail{
+    position:absolute;
+    top:50vw;
+    width:30vw;
+    line-height: 1.8vw;
+    animation:transparencyAnimate 1s;
+    animation-fill-mode:forwards;
+    color: white;
+}
+#descriptionspDetail1{
+    text-align: left;
+    top:75vw;
+    right:10vw;
+}
+#descriptionspDetail2{
+    top:136vw;
+    right:5vw;
+}
+@media(max-width:600px){
+    .descriptionspDetail{
+        font-size: 4px;
+        line-height: 10px; 
+    }
+    #descriptionunder5{
+        width:250px;
+        font-size: 7px;
+        line-height: 15px;
+        left:20px;
+    }
+    
+}
